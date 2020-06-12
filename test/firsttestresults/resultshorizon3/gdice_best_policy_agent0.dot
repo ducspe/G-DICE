@@ -1,0 +1,18 @@
+digraph  {
+	node [label="\N"];
+	0	 [label="N 0 : A 1 [open-left]"];
+	0 -> 0 [key=0,
+	label="0 [hear-left]"];
+2 [label="N 2 : A 0 [listen]"];
+0 -> 2 [key=0,
+label="1 [hear-right]"];
+1 [label="N 1 : A 0 [listen]"];
+1 -> 0 [key=0,
+label="0 [hear-left]"];
+1 -> 2 [key=0,
+label="1 [hear-right]"];
+2 -> 2 [key=0,
+label="0 [hear-left]"];
+2 -> 2 [key=1,
+label="1 [hear-right]"];
+}

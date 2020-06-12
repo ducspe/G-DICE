@@ -1,0 +1,15 @@
+digraph G {
+0[label="0 (H1): 2 [open-right]"];
+1[label="1 (end)"];
+2[label="2 (H2): 1 [open-left]"];
+3[label="3 (H3): 1 [open-left]"];
+4[label="4 (H4): 2 [open-right]"];
+0->1 [label="0 [hear-left]"];
+0->1 [label="1 [hear-right]"];
+2->0 [label="0 [hear-left]"];
+2->0 [label="1 [hear-right]"];
+3->2 [label="0 [hear-left]"];
+3->2 [label="1 [hear-right]"];
+4->3 [label="0 [hear-left]"];
+4->3 [label="1 [hear-right]"];
+}

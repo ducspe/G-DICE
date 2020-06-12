@@ -1,0 +1,8 @@
+horizon = 2
+N_n=3
+N_sim=5000
+value = -3.9956  // optimal value is -4
+
+//////////////////////////
+N_sim=10000
+value=-4.0

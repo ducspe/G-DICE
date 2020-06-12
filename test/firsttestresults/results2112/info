@@ -1,0 +1,12 @@
+for npgi tree: 2 1 1 2 with value -60
+I set:
+horizon=4
+N_n=3
+N_sim=5000
+value = -57.088
+test_actions = [[2, 1, 1], [2, 1, 1]]
+test_next_nodes = [[[1, 1], [2, 2], [0, 0]], [[1, 1], [2, 2], [0, 0]]]
+
+//////////////////////////
+N_sim=10000
+value=-57.998

@@ -1,0 +1,9 @@
+digraph G {
+0[label="0 (H1): 2 [open-right]"];
+1[label="1 (end)"];
+2[label="2 (H2): 0 [listen]"];
+0->1 [label="0 [hear-left]"];
+0->1 [label="1 [hear-right]"];
+2->0 [label="0 [hear-left]"];
+2->0 [label="1 [hear-right]"];
+}
