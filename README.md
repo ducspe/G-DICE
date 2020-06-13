@@ -1,3 +1,4 @@
+# Check "GDICE_TechReport.pdf" available in this repository for more details about the reimplemented G-DICE algorithm and the validation experiments performed
 # This is a re-implementation of the G-DICE algorithm based on the paper: "The Cross-Entropy Method for Policy Search in Decentralized POMDPs" by FA Oliehoek et al.
 
 # The algorithm is run on the dectiger problem from the "problems/" folder
